@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home_prt2</title>
+    <style>
+        #header_navi
+        {
+            text-align: center;
+            padding: 1px;
+        }
+        hr.naw
+        {
+            border-top: 2px solid #b32222;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+<nav>
+    <hr class="naw">
+    <div id="header_navi">
+        <a href="#">NEWS</a>
+        <a href="#">CARS</a>
+        <a href="#">ODESSA</a>
+        <a href="#">ABOUT ME</a>
+        <a href="#">CALL ME</a>
+    </div>
+
+    <hr class="naw">
+
+</nav>
+</header>
+
+<main>
+    <form action="https://github.com/Harek921?tab=repositories"
+    method="get"
+    target="_blank">
+
+    <label for="name">Имя пользователя:</label>
+    <input type="text" id="name" name="name" placeholder="Введите своё имя">
+
+    <label for="name">Пароль</label>
+    <input type="password" id="passowd" name="password" placeholder="Напишите свой пароль">
+    <input type="submit">
+    </form>
+
+    <hr class="naw">
+<div style="text-align: center">
+    <div>
+             <h2>Выбери для доната:</h2>
+        <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+        <label for="paypal">PayPal</label><br>
+        <input type="radio" id="bitcoin" name="paymentMethod" value="bitcoin">
+        <label for="bitcoin">Bitcoin</label><br>
+        <button style=background:#cb4f4f type="submit">Click here</button>
+    </div>
+    <hr class="naw">
+    <div>
+        <h2>Tuch me pls</h2>
+               <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Музика</label>
+
+        <input type="checkbox" id="games1" disabled name="games" value="games">
+        <label for="games">Игры</label>
+
+        <input type="checkbox" id="reading" name="interest" value="reading">
+        <label for="reading">Чтение</label>
+    </div>
+</div>
+    <hr class="naw">
+
+    <form style="text-align: center" action="">
+        <label for="games">Games items</label>
+        <select name="list" id="games">
+            <option value="item1">Games1</option>
+            <option value="item1" selected>Games2(selected)</option>
+            <option value="item1">Games3</option>
+            <option value="item1" disabled>Games4(disable)</option>
+        </select>
+    </form>
+    <hr class="naw">
+
+</main>
+
+</body>
+</html>
